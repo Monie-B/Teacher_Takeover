@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+      background-color: rgb(173, 230, 245);
+    margin: 0;
+  }
+  
+  /* Style the header */
+  .header {
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1 {
+      color: darkgreen;
+      text-align: center;
+      margin: 10px;
+      font-size: 40px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: xx-large;
+  }
+  
+  .top-buttons {
+      display: flex;
+      padding: 10px;
+      justify-content: center;
+      text-align: center;
+  }
+  
+  .button1 {
+      display: inline-block;
+      padding: 15px 25px;
+      margin-right: 20px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+  }
+  
+  .button2 {
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+  }
+  
+  .button3 {
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+      margin-right: 20px;
+  }
+  
+  
+  .top-buttons {
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+      text-align: center;
+  }
+  
+  .button1:hover {background-color: #3e8e41}
+  
+  .button1:active {
+    background-color: #16e61d;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .button2:hover {background-color: #3e8e41}
+  
+  .button2:active {
+    background-color: #f52832;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .button3:hover {background-color: #3e8e41}
+  
+  .button3:active {
+    background-color: #f7de01;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .answer {
+    margin-top: auto;
+  }
+  
+  textarea {
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      width: 40%;
+      resize: none;
+  }
+
+  .input {
+    text-align: center;
+  }
+
+  /* .submit {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: fixed;
+  } */
+  
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+
+  #teachers-text {
+    text-align: center;
+    font-size: x-large;
+  }
+  
+  .evil-teacher {
+      transform: scaleX(-1);
+      width: 100%;
+      bottom: 0;
+  }
+
+  #middle-text {
+    text-align: center;
+    font-size: x-large;
+  }
+  
+  #school {
+      width: 100%
+  }
+  
+  #students-text {
+    text-align: center;
+    font-size: x-large;
+  }
+
+  .student-working {
+      width: 100%;
+  }
+  
+  footer {
+      display: flex;
+      justify-content: center;
+      left: 40%;
+      height: 10px;
+      margin-top: 0;
+  }

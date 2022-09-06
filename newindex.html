@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Takeover, gameplay by Monica Bullock</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="newstyle.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Teacher Takeover!</h1>
+        <h3>Destroy the assignments or the teachers will takeover summer vacation!!</h3>
+      </div>
+      
+      <div class="top-buttons">
+          <button class="top-buttons button1" onclick="startGame()">Start Game</button>
+          <button class="top-buttons button3" onclick="nextRound()">Next Round</button>
+          <button class="top-buttons button2" onclick="endGame()">End Game</button>
+      </div>
+      
+      <div class="row">
+        <div class="column side">
+          <h2>Teacher</h2>
+          <p id="teachers-text">"Summer is too long, let's do extra work instead! Answer the questions correctly or I'll assign more work for the entire summer!"</p><br><br>
+          <img class="evil-teacher" src="https://fictionmadness.com/wp-content/uploads/2019/12/Bitters.jpg">
+        </div>
+        
+        <div class="column middle">
+            <div class="input">
+              <textarea id="answer" placeholder="Answer Here"></textarea><br>
+              <button class="Submit" onclick="check()">Submit</button>
+          </div>
+          <p id="middle-text">Answer the teacher's questions correctly to save summer!</p>
+          <img id="school" class="column middle" alt="photo" src="https://media.istockphoto.com/vectors/school-building-facade-with-green-grass-and-trees-public-educational-vector-id1319938106?k=20&m=1319938106&s=612x612&w=0&h=Zfkj1QC7HcbXBj5_Co0YhCdXIamf7Z0_XHhbQ3gSui0=">
+        </div>
+        
+        <div class="column side">
+          <h2>Student</h2>
+          <p id="students-text">"Oh no! I must save summer vacation! No kid wants to stay in summer school!"</p>
+          <img class="student-working" src="https://static6.depositphotos.com/1089780/586/i/950/depositphotos_5867100-stock-photo-hard-student.jpg">
+        </div>
+      </div>
+       
+      <footer id="footer">Game designed by Monica Bullock</footer>
+</body>
+</html>
